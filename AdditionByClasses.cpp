@@ -1,5 +1,6 @@
-#include<iostream.h>
+#include<iostream>
 #include<conio.h>
+using namespace std;
 class abc;
 class xyz
 {
@@ -33,7 +34,7 @@ class abc
   t=ob1.a + ob2.d;
   cout<<"The summation is: "<<t<<endl;
   }
-  void main()
+  int main()
   {
   xyz x;
   abc b;
@@ -41,5 +42,4 @@ class abc
   b.get();
   add(b,x);
   getch();
-  clrscr();
   }
