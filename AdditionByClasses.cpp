@@ -7,7 +7,6 @@ class xyz
 int d;
 public:
    void get();
-   void disp();
    friend void add(abc&, xyz&);
 };
 class abc
@@ -15,7 +14,6 @@ class abc
   int a;
   public:
   void get();
-  void disp();
   friend void add(abc&, xyz&);
 };
   void abc::get()
