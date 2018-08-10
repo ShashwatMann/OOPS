@@ -4,7 +4,6 @@ class Complex
 {
   int r,i;
   public:
-    Complex(): r(0), i(0){ }
     void get()
     {
       cout<<"Enter real number: ";
